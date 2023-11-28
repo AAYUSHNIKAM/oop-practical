@@ -117,3 +117,50 @@ class Complex                       //decaring Class Complex
  }
  return 0;
  }
+
+OUTPUT:
+jspm@jspm-Vostro-3470:~$ c++ oops1.cpp
+jspm@jspm-Vostro-3470:~$ ./a.out
+Enter Real and Imaginary part of the Complex Number 1 : 
+12
+13
+Enter Real and Imaginary part of the Complex Number 2 : 
+13
+14
+Complex Number 1 : 12 + 13i
+
+Complex Number 2 : 13 + 14i
+
+**********MENU**********
+1. Addition of Complex Numbers
+2. Multiplication of Complex Numbers
+3. Exit
+Enter your choice from above MENU (1 to 3) : 1
+Addition : 25 + 27i
+
+Do you wan to perform another operation (y/n) : 
+y
+Complex Number 1 : 12 + 13i
+
+Complex Number 2 : 13 + 14i
+
+**********MENU**********
+1. Addition of Complex Numbers
+2. Multiplication of Complex Numbers
+3. Exit
+Enter your choice from above MENU (1 to 3) : 2
+Multiplication : -26 + 337i
+
+Do you wan to perform another operation (y/n) : 
+y
+Complex Number 1 : 12 + 13i
+
+Complex Number 2 : 13 + 14i
+
+**********MENU**********
+1. Addition of Complex Numbers
+2. Multiplication of Complex Numbers
+3. Exit
+Enter your choice from above MENU (1 to 3) : 3
+Thanks for using this program!!
+jspm@jspm-Vostro-3470:~$ 
