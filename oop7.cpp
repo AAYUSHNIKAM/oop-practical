@@ -59,52 +59,7 @@ int main()
 	
 	char c;
 	do
-	{jspm@jspm-Vostro-3470:~$ c++ oop7.cpp 
-jspm@jspm-Vostro-3470:~$ ./a.out
-Total state and UT of India with Size of populationMap: 35
-Andhra Pradesh:53 million
-Arunachal Pradesh:2 million
-Assam:35 million
-Bihar:120 million
-Chhattisgarh:30 million
-Goa:2 million
-Gujarat:70 million
-Haryana:29 million
-Himachal Pradesh:8 million
-Jharkhand:38 million
-Karnataka:68 million
-Kerala:38 million
-Madhya Pradesh:90 million
-Maharashtra:125 million
-Manipur[:3 million
-Meghalaya:4 million
-Mizoram:1 million
-Nagaland:2 million
-Odisha:47 million
-Punjab:31 million
-Rajasthan:78 million
-Sikkim:1 million
-Tamil Nadu:80 million
-Telangana:37 million
-Tripura:4 million
-UT Andaman and Nicobar Islands:1 million
-UT Chandigarh:1 million
-UT Dadra and Nagar Haveli and Daman and Diu:1 million
-UT Delhi:19 million
-UT Jammu and Kashmir:14 million
-UT Ladakh:0 million
-UT Lakshadweep:0 million
-UT Puducherry:2 million
-Uttar Pradesh:225 million
-Uttarakhand:12 million
-
-Enter that state you want to know the population of: Maharashtra
-Maharashtra's populations is 125 million
-Do you wish to continue?(y/n):y
-
-Enter that state you want to know the population of: Jammu and Kashmir                                        
-State is not in populationMap
-
+	{
 		string state;
 		cout<<"\nEnter that state you want to know the population of: ";
 		cin>>state;
@@ -123,6 +78,7 @@ State is not in populationMap
 	
 	return 0;
 }
+
 
 OUTPUT:
 
@@ -171,4 +127,4 @@ Do you wish to continue?(y/n):y
 
 Enter that state you want to know the population of: Jammu and Kashmir                                        
 State is not in populationMap
-
+Do you wish to continue?(y/n)
