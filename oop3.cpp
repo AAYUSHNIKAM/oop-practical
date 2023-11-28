@@ -26,7 +26,100 @@ class publication                 // declaring class Publication
  {
  cout << "\nEnter the Publication information : " << endl;
  cout << "Enter Title of the Publication : ";
-cin.ignore();
+cin.ignore();jspm@jspm-Vostro-3470:~$ c++ oops3.cpp
+jspm@jspm-Vostro-3470:~$ ./a.out
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 1
+
+Enter the Publication information : 
+Enter Title of the Publication : techneo
+Enter Price of Publication : 234
+Enter Page Count of Book : 244
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 2
+
+Enter the Publication information : 
+Enter Title of the Publication : nirali
+Enter Price of Publication : 13
+Enter Play Duration of the Tape : 21
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 3
+
+* * * * BOOK PUBLICATION DATABASE SYSTEM * * * *
+--------------------------------------------------
+Title of Publication : techneo
+Publication Price : 234
+Page Count : 244
+--------------------------------------------------
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 3
+
+* * * * BOOK PUBLICATION DATABASE SYSTEM * * * *
+--------------------------------------------------
+Title of Publication : techneo
+Publication Price : 234
+Page Count : 244
+--------------------------------------------------
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 4
+
+* * * * TAPE PUBLICATION DATABASE SYSTEM * * * *
+--------------------------------------------------
+Title of Publication : nirali
+Publication Price : 13
+Play Time : 21 min
+--------------------------------------------------
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 5
+
 getline(cin, title);
 cout << "Enter Price of Publication : ";
  cin >> price;
@@ -144,3 +237,100 @@ break;
  }while (ch != 5);
  return 0;
  }
+
+OUTPUT:
+jspm@jspm-Vostro-3470:~$ c++ oops3.cpp
+jspm@jspm-Vostro-3470:~$ ./a.out
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 1
+
+Enter the Publication information : 
+Enter Title of the Publication : techneo
+Enter Price of Publication : 234
+Enter Page Count of Book : 244
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 2
+
+Enter the Publication information : 
+Enter Title of the Publication : nirali
+Enter Price of Publication : 13
+Enter Play Duration of the Tape : 21
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 3
+
+* * * * BOOK PUBLICATION DATABASE SYSTEM * * * *
+--------------------------------------------------
+Title of Publication : techneo
+Publication Price : 234
+Page Count : 244
+--------------------------------------------------
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 3
+
+* * * * BOOK PUBLICATION DATABASE SYSTEM * * * *
+--------------------------------------------------
+Title of Publication : techneo
+Publication Price : 234
+Page Count : 244
+--------------------------------------------------
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 4
+
+* * * * TAPE PUBLICATION DATABASE SYSTEM * * * *
+--------------------------------------------------
+Title of Publication : nirali
+Publication Price : 13
+Play Time : 21 min
+--------------------------------------------------
+
+* * * * * PUBLICATION DATABASE SYSTEM * * * * *
+--------------------MENU-----------------------
+1. Add Information to Books
+2. Add Information to Tapes
+3. Display Books Information
+4. Display Tapes Information
+5. Exit
+
+Enter your choice : 5
+ 
+ Thanks for using these program!
