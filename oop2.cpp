@@ -26,7 +26,33 @@ class Student{
     string cls;
     char* division;
     string dob;
-    char* bloodgroup;
+    char* bloodgroup;jspm@jspm-Vostro-3470:~$ c++ oops2.cpp
+jspm@jspm-Vostro-3470:~$ ./a.out
+Enter Student Name : 	AAYUSH      
+Enter Roll Number : 37
+Enter Class : SE
+Enter Division : A
+Enter Date of Birth : 19/02/2005
+Enter Blood Group : B positive
+Enter Contact Address : Enter Telephone Number : 12345
+Enter Driving License Number : 1234
+Do you want to add another student (y/n) : n
+---------------------------------------------------------------
+Student Name : 	AAYUSH
+Roll Number : 37
+Class : SE
+Division : A
+Date of Birth : 19/02/2005
+Blood Group : B
+Contact Address : positive
+Telephone Number : 12345
+Driving License Number : 1234
+---------------------------------------------------------------
+Total Students : 1
+---------------------------------------------------------------
+jspm@jspm-Vostro-3470:~$ 
+
+
     static int count;
 
     public:
@@ -125,7 +151,33 @@ inline void Student::dispData(StudData* st1)
     cout<<"Date of Birth : "<<dob<<endl;
     cout<<"Blood Group : "<<bloodgroup<<endl;
     st1->dispStudData();
-}
+}jspm@jspm-Vostro-3470:~$ c++ oops2.cpp
+jspm@jspm-Vostro-3470:~$ ./a.out
+Enter Student Name : 	AAYUSH      
+Enter Roll Number : 37
+Enter Class : SE
+Enter Division : A
+Enter Date of Birth : 19/02/2005
+Enter Blood Group : B positive
+Enter Contact Address : Enter Telephone Number : 12345
+Enter Driving License Number : 1234
+Do you want to add another student (y/n) : n
+---------------------------------------------------------------
+Student Name : 	AAYUSH
+Roll Number : 37
+Class : SE
+Division : A
+Date of Birth : 19/02/2005
+Blood Group : B
+Contact Address : positive
+Telephone Number : 12345
+Driving License Number : 1234
+---------------------------------------------------------------
+Total Students : 1
+---------------------------------------------------------------
+jspm@jspm-Vostro-3470:~$ 
+
+
 
 int Student::count;
 
@@ -166,3 +218,31 @@ int main()
 
     return 0;
 }
+
+OUTPUT:
+jspm@jspm-Vostro-3470:~$ c++ oops2.cpp
+jspm@jspm-Vostro-3470:~$ ./a.out
+Enter Student Name : 	AAYUSH NIKAM
+Enter Roll Number : 37
+Enter Class : SE
+Enter Division : A
+Enter Date of Birth : 19/02/2005
+Enter Blood Group : B positive
+Enter Contact Address : Enter Telephone Number : 12345
+Enter Driving License Number : 1234
+Do you want to add another student (y/n) : n
+---------------------------------------------------------------
+Student Name : 	AAYUSH
+Roll Number : 37
+Class : SE
+Division : A
+Date of Birth : 19/02/2005
+Blood Group : B
+Contact Address : positive
+Telephone Number : 12345
+Driving License Number : 1234
+---------------------------------------------------------------
+Total Students : 1
+---------------------------------------------------------------
+jspm@jspm-Vostro-3470:~$ 
+
