@@ -59,3 +59,40 @@ int main()
  
  return 0;
 }
+
+OUTPUT:
+jspm@jspm-Vostro-3470:~$ c++ oops4.cpp
+jspm@jspm-Vostro-3470:~$ ./a.out
+
+ Enter the number of employees you want to store : 2
+
+ Enter information of Employee 1
+
+ Name : abc
+
+ Id : 123
+
+ Salary : 1244
+
+ Enter information of Employee 2
+
+ Name : ert
+
+ Id : 123
+
+ Salary : 145
+
+ Information of Employees is as follows : 
+
+Employee 1
+
+ Name : abc
+ Id : 123
+ Salary : 1244
+
+Employee 2
+
+ Name : ert
+ Id : 123
+ Salary : 145
+
